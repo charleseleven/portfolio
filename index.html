@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Charles P. Rodrigues</title>
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">Portfólio</a>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <ul class="menu">
+      <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+      <li><a href="#about" onclick="toggleMenu();">Sobre</a></li>
+      <li><a href="#skills" onclick="toggleMenu();">Habilidades</a></li>
+      <li><a href="#projects" onclick="toggleMenu();">Meus Projetos</a></li>
+      <li><a href="#courses" onclick="toggleMenu();">Cursos</a></li>
+      <li><a href="#contact" onclick="toggleMenu();">Contato</a></li>
+    </ul>
+  </header>
+
+  <section class="banner" id="home">
+    <div class="textBx">
+      <h2>Olá, Meu nome é <br><span>Charles P. Rodrigues.</span></h2>
+      <p>Um estudante de ADS e entusiasta do desenvolvimento Web.</p>
+      <a href="#about" class="btn">Sobre Mim</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="heading">
+      <h2>Sobre Mim</h2>
+    </div>
+    <div class="content">
+      <div class="contentBx w50">
+        <h3>Eu sou um estudante de ADS e entusiasta do desolvimento Web.</h3>
+        <p>Sou um estudante de Analise e Desenvolvimento de Sistemas. Também um estudante do desenvolvimento fullstack
+          autodidata, buscando especialização em JavaScript e suas bibliotecas e frameworks. Durante mais de uma década
+          trabalhei como funcionário público, em uma área completamente distinta. Estive exposto a muitos locais,
+          pessoas e ideias únicas. Por causa disso, adquiri muitas experiências que me moldaram para ser atencioso,
+          curioso, determinado,
+          cômico e empático.Dessa maneira, à medida que continuo criando projetos, espero infundir minha personalidade
+          neles e
+          fornecer uma experiência segura, significativa e divertida para futuros usuários.</p><br>
+        Eu me adapto facilmente às mudanças, pois para mim, mudança
+        normalmente significa progresso.
+        Tenho uma perspectiva global que me permite ver o mundo fora de mim. Nos dias
+        de hoje, acredito que seja especialmente importante.
+        Estou realmente muito motivado. Pois ao decidir seguir a carreira de desenvolvimento, tomei as decisões
+        necessárias para me orientar para o sucesso, dedicando todo meu tempo livre
+        para estudar e criar projetos.
+      </div>
+      <div class="w50">
+        <img src="/img/about.jpg" alt="Foto Sobre Mim" class="img">
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="heading">
+      <h2>Habilidades</h2>
+      <p>Essas são tecnologias que venho estudando e a aprendendo a cada dia. Sei que tenho muito a aprender e
+        continuarei me atualizando e evoluindo.</p>
+    </div>
+    <div class="content">
+      <ul>
+        <li><img src="/img/html5.svg" alt=" Logo HTML5">
+          <p>HTML5</p>
+        </li>
+        <li><img src="/img/css-3.svg" alt=" Logo CSS-3">
+          <p>CSS3</p>
+        </li>
+        <li><img src="/img/sass.svg" alt=" Logo HTML5">
+          <p>Sass</p>
+        </li>
+        <li><img src="/img/javascript.svg" alt=" Logo JavaScript">
+          <p>JavaScript</p>
+        </li>
+        <li><img src="/img/vue.svg" alt=" Logo Vue">
+          <p>Vue</p>
+        </li>
+        <li><img src="/img/nodejs.svg" alt=" Logo Node">
+          <p>Node</p>
+        </li>
+        <li><img src="/img/mongodb.svg" alt=" Logo MongoDB">
+          <p>MongoDB</p>
+        </li>
+        <li><img src="/img/git.svg" alt=" Logo Git">
+          <p>Git</p>
+        </li>
+        <li><img src="/img/github.svg" alt=" Logo GitHub">
+          <p>GitHub</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="heading">
+      <h2>Meus Projetos</h2>
+      <p>Aqui estão alguns projetos que desenvolvi durante esse período de aprendizagem. Estou sempre encontrando novas
+        maneiras de refatorar ou adicionar novas funcionalidades aos meus projetos como uma forma de aprender e melhorar
+        minhas habilidades</p>
+    </div>
+    <div class="content">
+      <div class="card">
+        <img src="img/project-1.png" alt="Projeto 1" class="card-img">
+        <h3>LeCafé</h3>
+        <p class="project-info">HTML-CSS3-JavaScript</p>
+        <p class="description">Nada como tomar um gostoso café a qualquer hora do dia. Esse projeto foi desenvolvido com
+          HTML, CSS e JavaScript. Utilizei Flexbox e um JavaScript para interação do Navbar.</p>
+        <a href="https://charles-lecafe.netlify.app/" target="_blank" class="btn">Acesse</a>
+      </div>
+      <div class="card">
+        <img src="img/project-2.png" alt="Projeto 2" class="card-img">
+        <h3>Visit Alberta</h3>
+        <p class="project-info">HTML-CSS3</p>
+        <p class="description">Visit Alberta foi desenvolvido com a ideia de conhecer um local magnífico onde só conheço
+          em alguns filmes e fotos. Esse projeto foi desenvolvido utilizando apenas HTML e CSS. Onde foi utilizado
+          alguns recursos avançados para o card e menu.</p>
+        <a href="https://charles-visit-alberta.netlify.app/" target="_blank" class="btn">Acesse</a>
+      </div>
+      <div class="card">
+        <img src="img/project-3.png" alt="Projeto 3" class="card-img">
+        <h3>Eleven Watches</h3>
+        <p class="project-info">HTML-CSS3-JavaScript</p>
+        <p class="description">Esse projeto foi pensado em algo que sempre gostei, relógios. Acredito ainda que é um
+          item que traz um certo charme ao seu look. Esse site foi pensado como algo com estilo e luxo.</p>
+        <a href="https://charles-watches.netlify.app/" target="_blank" class="btn">Acesse</a>
+      </div>
+      <div class="card">
+        <img src="img/project-4.png" alt="Projeto 4" class="card-img">
+        <h3>The Dark Knight</h3>
+        <p class="project-info">HTML-CSS3-JavaScript</p>
+        <p class="description">Essa Landscape foi desenvolvida em homenagem a um dos filmes que mais gosto. E nela
+          a interação do CSS para o desenvolvimento do detalhe do Coringa e o acesso ao trailer, traz uma sensação de
+          estar interagindo com uma tela de sugestões de uma streming.</p>
+        <a href="https://charles-the-dark-knight.netlify.app/" target="_blank" class="btn">Acesse</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="courses" id="courses">
+    <div class="heading white">
+      <h2>Projetos desenvolvidos em Cursos</h2>
+      <p>São muitos os projetos desenvolvidos nos cursos que venho me dedicando. Procurei deixar aqui os que acredito
+        serem os mais interessantes. Que vão ao nível mais avançado do que venho aprendendo.</p>
+    </div>
+    <!-- Swiper -->
+    <div class="content">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#"><img src="/img/flexblog.png" alt="Projeto 1"></a>
+            <h2>Flexblog</h2>
+            <p>Projeto desenvolvido no curso FlexBox da Origamid. Neste projeto foi desenvolvido um layout responsivo no
+              CSS utilizando apenas as propriedades do Flexbox.</p>
+            <a href="https://charles-flexblog.netlify.app/" target="_blank" class="btn">Acesse</a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="/img/wildbeast.png" alt="Projeto 2"></a>
+            <h2>Wildbeast</h2>
+            <p>Wildbeast - Projeto desenvolvido no curso CSS Grid Layout da Origamid. Neste projeto foi criado um layout
+              responsivo utilizando as propriedadas Grid Layout.</p>
+            <a href="https://charles-wildbeast.netlify.app/" target="_blank" class="btn">Acesse</a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="/img/natours.png" alt="Projeto 3"></a>
+            <h2>Natours</h2>
+            <p>Projeto desenvolvido no curso Advanced CSS and Sass Udemy do professor Jonas Schmedtmann. Foram
+              utilizados recurso avançados de CSS e Sass.</p>
+            <a href="https://charles-natours.netlify.app/" target="_blank" class="btn">Acesse</a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="/img/trillo.png" alt="Projeto 4"></a>
+            <h2>Trillo</h2>
+            <p>Projeto desenvolvido no curso Advanced CSS and Sass na Udemy do professor Jonas Schmedtmann. Foram
+              colocadas em práticas técnicas avançadas de Flexbox.</p>
+            <a href="https://charles-trillo.netlify.app/" target="_blank" class="btn">Acesse</a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="/img/guess-my-number.png" alt="Projeto 5"></a>
+            <h2>Guess My Number</h2>
+            <p>Projeto desenvolvido no curso JavaScript Course 2021 - Jonas Schmedtmann onde é preciso descobrir um
+              número aleatório entre 1 e 20.</p>
+            <a href="https://guessmynumber-charles.netlify.app/" target="_blank" class="btn">Acesse</a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="/img/pig-game.png" alt="Projeto 6"></a>
+            <h2>Pig Game</h2>
+            <p>Projeto desenvolvido no curso JavaScript do professor Jonas Schmedtmann onde ocorre o lançamento de dados
+              até chegar a um total de 100 pontos.</p>
+            <a href="https://piggame-charles.netlify.app/" target="_blank" class="btn">Acesse</a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="/img/bankist.png" alt="Projeto 7"></a>
+            <h2>Bankist</h2>
+            <p>Esse aplicativo foi desenvolvido no curso JavaScript do professor Jonas Schmedtmann. Nele é
+              possível fazer transações de transferência, empréstimo e mais.</p>
+            <a href="https://charles-bankist.netlify.app/" target="_blank" class="btn">Acesse</a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="/img/mapty.png" alt="Projeto 8"></a>
+            <h2>Mapty</h2>
+            <p>Projeto desenvolvido no Curso JavaScript do professor Jonas Schmedtmann, onde é possível marcar seus
+              workouts. Tanto para corrida e ciclismo.</p>
+            <a href="https://charles-mapty.netlify.app/" target="_blank" class="btn">Acesse</a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="/img/forkify.png" alt="Projeto 9"></a>
+            <h2>Forkify</h2>
+            <p>Projeto desenvolvido no curso JavaScript do professor Jonas Schmedtmann, nele é possível encontrar uma
+              variedade de receitas deliciosas de pizza.</p>
+            <a href="https://forkify-charles.netlify.app/" target="_blank" class="btn">Acesse</a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#"><img src="/img/weather.png" alt="Projeto 10"></a>
+            <h2>Weather App</h2>
+            <p>Weather App - Projeto desenvolvido no curso Node.js na Udemy do professor Andrew Mead. Foi utilizado
+              dados do mapbox.com e weatherstack.com</p>
+            <a href="https://eleven-weather-application.herokuapp.com/" target="_blank" class="btn">Acesse</a>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="cto contactMe">
+        <h2>Contate-me</h2>
+        <p>Estou disposto a receber a sua proposta para futuros projetos e trabalhos. Ficarei muito contente em receber
+          o
+          seu contato para conversarmos.</p>
+
+        <ul class="list">
+          <li><a href="https://github.com/charleseleven" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://twitter.com/CharlesPiresRo1" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/charles-pires-rodrigues-5293a91a7/" target="_blank"><i
+                class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+      <div class="cto quickLinks">
+        <h2>Links</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Meus Projetos</a></li>
+          <li><a href="#courses">Cursos</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p class="text">Portifólio © Copyright by <b>Charles Pires Rodrigues</b></p>
+  </footer>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- <script src="../package/swiper-bundle.min.js"></script> -->
+  <script src="js/swiper.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
