@@ -617,6 +617,10 @@ header.sticky ul li a:hover {
     margin: 0 10px;
   }
 
+  .w50 {
+    padding-top: 20px;
+  }
+
   .skills .content {
     padding: 50px auto;
   }
