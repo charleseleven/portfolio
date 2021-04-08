@@ -314,15 +314,6 @@ header.sticky ul li a:hover {
   font-weight: 600;
   padding: 10px 0;
 }
-/* 
-.courses .content .swiper-slide h2::after {
-  content: '';
-  width: 50px;
-  height: 5px;
-  color: #ffcd36;
-  top: 50%;
-  transform: translateY(-50%)
-} */
 
 .courses .content .swiper-slide p {
   font-size: 1em;
@@ -624,10 +615,6 @@ header.sticky ul li a:hover {
 }
   .contentBx {
     margin: 0 10px;
-  }
-  .contentBx p {
-    font-size: 0.85em;
-    margin-bottom: 20px;
   }
 
   .skills .content {
